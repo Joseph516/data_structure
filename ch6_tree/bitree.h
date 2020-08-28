@@ -9,4 +9,12 @@ typedef struct BiTNode {
 
 } BiTNode, *BiTree;
 
+
+enum PointerTag{Link, Thread};
+typedef struct BiThrNode {
+  TElemType data;
+  struct BiThrNode *lchild, *rchild;
+  int ltag, rtag;
+} BiThrNode, *BiThrTree;
+
 #endif

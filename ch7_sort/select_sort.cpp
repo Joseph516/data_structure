@@ -77,7 +77,6 @@ void HeapSort(int A[], int n) {
   }
 }
 
-
 int main(void) {
   const int n = 8;
   int A[n] = {8, 7, 6, 5, 4, 3, 2, 1};
